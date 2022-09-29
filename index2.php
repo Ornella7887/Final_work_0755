@@ -65,15 +65,15 @@
                 </div>
               </div>
               <div class="form form_style">
-                <form action="">
+                <form action="./assets/php/sendMail.php" method="POST">
                   <div class="form-group">
-                    <input type="text" class="form-control card-theme" placeholder="What's your name?">
+                    <input type="text" name="user-name" class="form-control card-theme" placeholder="What's your name?">
                   </div>
                   <div class="form-group">
-                    <input type="email" class="form-control card-theme" placeholder="E-mail">
+                    <input type="email" name="email" class="form-control card-theme" placeholder="E-mail">
                   </div>
                   <div class="form-group">
-                    <textarea rows="2" class="form-control card-theme" placeholder="Message"></textarea>
+                    <textarea name="message" rows="2" class="form-control card-theme" placeholder="Message"></textarea>
                   </div>
                   <div class="form-group">
                     <input type="submit" class="form-control btn mybtn" placeholder="Send">
